@@ -1,7 +1,7 @@
 # CreditToken - A Blockchain-Based Lending Framework
 
 ## 🎥 Project Demo
-[![Project Demo](https://img.shields.io/badge/Watch-Project%20Demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/QpSz40UdMBo?si=euzPB0RpFjZOf7H9)
+[![Project Demo](https://img.shields.io/badge/Watch-Project%20Demo-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=QpSz40UdMBo)
 
 ## 📌 Overview
 CreditToken is an Ethereum-based lending framework that enables secure and trustless digital asset lending using Non-Fungible Tokens (NFTs) as loan collateral. This project leverages **Smart Contracts, ERC-20 Tokens, and KYC Verification** to ensure transparent and decentralized lending operations.
@@ -20,6 +20,7 @@ CreditToken is an Ethereum-based lending framework that enables secure and trust
 - **Solidity (v0.8.0)** - Smart contract development
 - **OpenZeppelin** - Secure contract implementation (ERC-20, Ownable, SafeERC20)
 - **Ethereum Blockchain** - Smart contract deployment
+- **Remix IDE** - Smart contract testing and deployment
 - **Metamask & Web3.js** - Interacting with the blockchain
 
 ## 📜 Smart Contract Details
@@ -53,17 +54,14 @@ CreditToken is an Ethereum-based lending framework that enables secure and trust
 | `NFTBurned` | The NFT associated with a loan has been burned. |
 
 ## 📌 How to Use
-### 1️⃣ Install Dependencies
-```sh
-npm install
-```
-### 2️⃣ Compile and Deploy the Contract
-```sh
-npx hardhat compile
-npx hardhat run scripts/deploy.js --network rinkeby
-```
-### 3️⃣ Interact with the Contract
-Use **Etherscan, Hardhat Console, or Web3.js** to call functions such as `issueLoan`, `acceptLoan`, and `repayLoan`.
+### 1️⃣ Deploy Smart Contract Using Remix IDE
+- Open [Remix IDE](https://remix.ethereum.org/)
+- Create a new Solidity file and paste the `CreditToken.sol` contract.
+- Compile the contract using **Solidity v0.8.0**.
+- Deploy the contract using **Injected Web3 (Metamask)** on a testnet like Rinkeby.
+
+### 2️⃣ Interact with the Contract
+Use Remix's **Deployed Contracts** section to call functions such as `issueLoan`, `acceptLoan`, and `repayLoan`.
 
 ## 🔒 Security Considerations
 - Uses **OpenZeppelin’s SafeERC20** to prevent reentrancy attacks.
