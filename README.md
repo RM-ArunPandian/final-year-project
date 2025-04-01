@@ -1,7 +1,8 @@
 # CreditToken - A Blockchain-Based Lending Framework
 
 ## 🎥 Project Demo
-[![Project Demo](https://img.shields.io/badge/Watch-Project%20Demo-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=QpSz40UdMBo&t=55s&ab_channel=ArunPandian)
+[![Project Demo](https://img.shields.io/badge/Watch-Project%20Demo-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=QpSz40UdMBo&t=55s&ab_channel=ArunPandian){:target="_blank"}
+
 
 ## 📌 Overview
 CreditToken is an Ethereum-based lending framework that enables secure and trustless digital asset lending using Non-Fungible Tokens (NFTs) as loan collateral. This project leverages **Smart Contracts, ERC-20 Tokens, and KYC Verification** to ensure transparent and decentralized lending operations.
